@@ -56,6 +56,8 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
+  background-image: url("../img/arena.png");
+  background-size: cover;
 }
 
 /******************************************
@@ -64,7 +66,7 @@ body {
 
 /* Center the container */
 
-#container {
+#poke-container {
   width: 960px;
   margin: auto;
 }
@@ -77,8 +79,9 @@ button {
   border: 1px solid #ffd000;
   border-radius: 12px;
   position: absolute;
-  left: 25em;
-  top: 20em;
+  left: 67em;
+  top: 40em;
+  text-align: center;
 }
 
 button:hover {
@@ -88,7 +91,7 @@ button:hover {
 }
 
 footer {
-  clear: both;
+  text-align: center;
 }
 
 /******************************************
